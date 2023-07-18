@@ -562,11 +562,40 @@ header {
         display: block;
         margin-inline: auto;
     }
+
+    .logins {
+        padding-top: 5rem;
+    }
+
+    .login-box input {
+        width: 400px;
+        height: 40px;
+    }
+
+    .login-box img {
+        width: 400px;
+        display: block;
+        margin-inline: auto;
+    }
+
+    .logins p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 575px){
     .homepage .header-box h1{
         font-size: 3rem;
+    }
+    
+    .login-box img {
+        width: 350px;
+        display: block;
+        margin-inline: auto;
+    }
+    .login-box input {
+        width: 200px;
+        height: 50px;
     }
 }
 
@@ -582,6 +611,13 @@ header {
     .homepage .header-box img {
         width: 300px;
     }
+    .login-box img {
+        width: 300px;
+    }
+    .login-box input {
+        width: 280px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -591,6 +627,10 @@ header {
 
     .homepage .header-box p{
         font-size: 12px;
+    }
+    .login-box input {
+        width: 250px;
+        height: 50px;
     }
 }
 
