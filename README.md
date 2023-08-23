@@ -11,8 +11,7 @@ git clone git@github.com:Adheichsan/whezysAcademy.git
 ## Getting Started
 Untuk dapat run projects ini
 
-`npm install`.
-
 ```
+`npm install`.
 `npm run dev`.
 ```
