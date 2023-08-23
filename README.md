@@ -8,23 +8,11 @@ repository dapat dilihat di dalam repository yang diinginkan.
 git clone git@github.com:Adheichsan/whezysAcademy.git
 ```
 
-#### Contoh
+## Getting Started
+Untuk dapat run projects ini
+
+`npm install`.
 
 ```
-user@host:~$ git clone https://github.com/datascienceid/instagram.git instagram
-Cloning into 'instagram'...
-remote: Counting objects: 4, done.
-remote: Compressing objects: 100% (4/4), done.
-remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
-Unpacking objects: 100% (4/4), done.
+`npm run dev`.
 ```
-
-## Memperbarui Repository
-
-Perbarui repository yang telah diunduh ke dalam komputer menggunakan perintah
-`git pull`.
-
-```
-git pull origin <nama branch>
-```
-
